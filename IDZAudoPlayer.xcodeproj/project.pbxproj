@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CB83776161AB892003C7DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB83775161AB892003C7DED /* UIKit.framework */; };
+		0CB83778161AB892003C7DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB83777161AB892003C7DED /* Foundation.framework */; };
+		0CB8377A161AB892003C7DED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB83779161AB892003C7DED /* CoreGraphics.framework */; };
+		0CB83780161AB892003C7DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CB8377E161AB892003C7DED /* InfoPlist.strings */; };
+		0CB83782161AB892003C7DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB83781161AB892003C7DED /* main.m */; };
+		0CB83786161AB892003C7DED /* IDZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB83785161AB892003C7DED /* IDZAppDelegate.m */; };
+		0CB83789161AB892003C7DED /* IDZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB83788161AB892003C7DED /* IDZViewController.m */; };
+		0CB8378C161AB892003C7DED /* IDZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB8378A161AB892003C7DED /* IDZViewController.xib */; };
+		0CB83793161ABB67003C7DED /* Rondo_Alla_Turka_Short.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 0CB83792161ABB67003C7DED /* Rondo_Alla_Turka_Short.aiff */; };
+		0CB83795161ABC6F003C7DED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB83794161ABC6F003C7DED /* AVFoundation.framework */; };
+		414B6D141AC364BF0038ECD7 /* IDZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414B6D131AC364BF0038ECD7 /* IDZViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CB83771161AB892003C7DED /* IDZAudoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDZAudoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB83775161AB892003C7DED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0CB83777161AB892003C7DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CB83779161AB892003C7DED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0CB8377D161AB892003C7DED /* IDZAudoPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IDZAudoPlayer-Info.plist"; sourceTree = "<group>"; };
+		0CB8377F161AB892003C7DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CB83781161AB892003C7DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CB83783161AB892003C7DED /* IDZAudoPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDZAudoPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		0CB83784161AB892003C7DED /* IDZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDZAppDelegate.h; sourceTree = "<group>"; };
+		0CB83785161AB892003C7DED /* IDZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDZAppDelegate.m; sourceTree = "<group>"; };
+		0CB83787161AB892003C7DED /* IDZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDZViewController.h; sourceTree = "<group>"; };
+		0CB83788161AB892003C7DED /* IDZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDZViewController.m; sourceTree = "<group>"; };
+		0CB8378B161AB892003C7DED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IDZViewController.xib; sourceTree = "<group>"; };
+		0CB83792161ABB67003C7DED /* Rondo_Alla_Turka_Short.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Rondo_Alla_Turka_Short.aiff; sourceTree = "<group>"; };
+		0CB83794161ABC6F003C7DED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		414B6D131AC364BF0038ECD7 /* IDZViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IDZViewController.xib; path = ../../../Documents/IDZViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CB8376E161AB892003C7DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB83795161ABC6F003C7DED /* AVFoundation.framework in Frameworks */,
+				0CB83776161AB892003C7DED /* UIKit.framework in Frameworks */,
+				0CB83778161AB892003C7DED /* Foundation.framework in Frameworks */,
+				0CB8377A161AB892003C7DED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB83766161AB892003C7DED = {
+			isa = PBXGroup;
+			children = (
+				0CB8377B161AB892003C7DED /* IDZAudoPlayer */,
+				0CB83774161AB892003C7DED /* Frameworks */,
+				0CB83772161AB892003C7DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CB83772161AB892003C7DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CB83771161AB892003C7DED /* IDZAudoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CB83774161AB892003C7DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CB83794161ABC6F003C7DED /* AVFoundation.framework */,
+				0CB83775161AB892003C7DED /* UIKit.framework */,
+				0CB83777161AB892003C7DED /* Foundation.framework */,
+				0CB83779161AB892003C7DED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CB8377B161AB892003C7DED /* IDZAudoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0CB83784161AB892003C7DED /* IDZAppDelegate.h */,
+				0CB83785161AB892003C7DED /* IDZAppDelegate.m */,
+				0CB83787161AB892003C7DED /* IDZViewController.h */,
+				0CB83788161AB892003C7DED /* IDZViewController.m */,
+				0CB8378A161AB892003C7DED /* IDZViewController.xib */,
+				414B6D131AC364BF0038ECD7 /* IDZViewController.xib */,
+				0CB8377C161AB892003C7DED /* Supporting Files */,
+			);
+			name = IDZAudoPlayer;
+			path = IDZAudoPlayerTutorial;
+			sourceTree = "<group>";
+		};
+		0CB8377C161AB892003C7DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CB83792161ABB67003C7DED /* Rondo_Alla_Turka_Short.aiff */,
+				0CB8377D161AB892003C7DED /* IDZAudoPlayer-Info.plist */,
+				0CB8377E161AB892003C7DED /* InfoPlist.strings */,
+				0CB83781161AB892003C7DED /* main.m */,
+				0CB83783161AB892003C7DED /* IDZAudoPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CB83770161AB892003C7DED /* IDZAudoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB8378F161AB892003C7DED /* Build configuration list for PBXNativeTarget "IDZAudoPlayer" */;
+			buildPhases = (
+				0CB8376D161AB892003C7DED /* Sources */,
+				0CB8376E161AB892003C7DED /* Frameworks */,
+				0CB8376F161AB892003C7DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDZAudoPlayer;
+			productName = IDZAudoPlayerTutorial;
+			productReference = 0CB83771161AB892003C7DED /* IDZAudoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CB83768161AB892003C7DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IDZ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = iosdeveloperzone.com;
+			};
+			buildConfigurationList = 0CB8376B161AB892003C7DED /* Build configuration list for PBXProject "IDZAudoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CB83766161AB892003C7DED;
+			productRefGroup = 0CB83772161AB892003C7DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CB83770161AB892003C7DED /* IDZAudoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CB8376F161AB892003C7DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414B6D141AC364BF0038ECD7 /* IDZViewController.xib in Resources */,
+				0CB83780161AB892003C7DED /* InfoPlist.strings in Resources */,
+				0CB8378C161AB892003C7DED /* IDZViewController.xib in Resources */,
+				0CB83793161ABB67003C7DED /* Rondo_Alla_Turka_Short.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CB8376D161AB892003C7DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB83782161AB892003C7DED /* main.m in Sources */,
+				0CB83786161AB892003C7DED /* IDZAppDelegate.m in Sources */,
+				0CB83789161AB892003C7DED /* IDZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CB8377E161AB892003C7DED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CB8377F161AB892003C7DED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0CB8378A161AB892003C7DED /* IDZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CB8378B161AB892003C7DED /* en */,
+			);
+			name = IDZViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CB8378D161AB892003C7DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CB8378E161AB892003C7DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CB83790161AB892003C7DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDZAudoPlayerTutorial/IDZAudoPlayer-Prefix.pch";
+				INFOPLIST_FILE = "IDZAudoPlayerTutorial/IDZAudoPlayer-Info.plist";
+				PRODUCT_NAME = IDZAudoPlayer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0CB83791161AB892003C7DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDZAudoPlayerTutorial/IDZAudoPlayer-Prefix.pch";
+				INFOPLIST_FILE = "IDZAudoPlayerTutorial/IDZAudoPlayer-Info.plist";
+				PRODUCT_NAME = IDZAudoPlayer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CB8376B161AB892003C7DED /* Build configuration list for PBXProject "IDZAudoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB8378D161AB892003C7DED /* Debug */,
+				0CB8378E161AB892003C7DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CB8378F161AB892003C7DED /* Build configuration list for PBXNativeTarget "IDZAudoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB83790161AB892003C7DED /* Debug */,
+				0CB83791161AB892003C7DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CB83768161AB892003C7DED /* Project object */;
+}
